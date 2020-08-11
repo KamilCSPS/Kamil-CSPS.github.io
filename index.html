@@ -1,21 +1,44 @@
 ﻿<!DOCTYPE html>
 <html lang="en-us">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169138456-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-169138456-1');
+
+        var loaded = false;
+        gtag(function () {
+            loaded = true;
+            window.alert("loaded");
+        });
+
+        // after one second do something if the library hasn't loaded
+        setTimeout(function () {
+            if (loaded) {
+                window.alert("loaded");
+            } else {
+                window.alert("not loaded");
+            }
+        }, 5000);
+    </script>
     <title>CSPS | 2002_VirtualExpo</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-  </head>
-  <body>
+</head>
+<body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas"></canvas>
-      <div id="unity-loading-bar">
-        <div id="unity-logo"></div>
-        <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+        <canvas id="unity-canvas"></canvas>
+        <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
         </div>
-      </div>
     </div>
     <script>
       var buildUrl = "Build";
@@ -27,7 +50,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "CSPS",
         productName: "2002_VirtualExpo",
-        productVersion: "0.2",
+        productVersion: "0.1",
       };
 
       var container = document.querySelector("#unity-container");
@@ -58,5 +81,5 @@
       };
       document.body.appendChild(script);
     </script>
-  </body>
+</body>
 </html>
