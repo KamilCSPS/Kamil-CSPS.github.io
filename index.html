@@ -7,22 +7,7 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'UA-169138456-1');
-
-        var loaded = false;
-        gtag(function () {
-            loaded = true;
-            window.alert("loaded now");
-        });
-
-        // after one second do something if the library hasn't loaded
-        setTimeout(function () {
-            if (loaded) {
-                window.alert("loaded");
-            } else {
-                window.alert("not loaded");
-            }
-        }, 5000);
+        gtag('config', 'UA-169138456-1', { 'send_page_view': false });
     </script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -75,6 +60,12 @@
             loadingBar.style.display = "none";
             canvas.height = "720";
             canvas.width = "1280";
+            gtag('event', 'page_view', {
+                'event_callback': function () {
+                    console.log('Google analytics is ready');
+                    unityInstance.SendMessage('Application', 'EnableGA', 'true');
+                }
+            });
         }).catch((message) => {
           alert(message);
         });

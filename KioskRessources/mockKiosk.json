@@ -1,0 +1,65 @@
+{
+    "kioskColor": "4E5B73",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/CSPSWave.png",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/Panel_CSPSLeft.png",
+            "titlePanelImageURL": "KioskRessources/Panel_CSPSTitle_Left.png",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "busrides website click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemCoordinates": [
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Panel_CSPSCenter.png",
+            "titlePanelImageURL": "KioskRessources/Panel_CSPSTitle.png",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "DA website click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemCoordinates": [
+                        0,
+                        0
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Panel_CSPSRight.png",
+            "titlePanelImageURL": "KioskRessources/Panel_CSPSTitle_Right.png",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "discover click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemCoordinates": [
+                        0,
+                        0
+                    ]
+                }
+            ]
+        }
+    ]
+}
