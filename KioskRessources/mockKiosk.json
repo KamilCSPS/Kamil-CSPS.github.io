@@ -11,21 +11,7 @@
                 0,
                 -0.384
             ],
-            "contentItems": [
-                {
-                    "descriptionIconImageURL": "icon.jpeg",
-                    "description": "busrides website click me",
-                    "linkURL": "http://www.example.com",
-                    "contentItemPosition": [
-                        0.7,
-                        0.7
-                    ],
-                    "contentItemSize": [
-                        1,
-                        1
-                    ]
-                }
-            ]
+            "contentItems": []
         },
         {
             "backgroundImageURL": "KioskRessources/Panel_CSPSCenter.png",
@@ -83,21 +69,7 @@
                 0,
                 -0.384
             ],
-            "contentItems": [
-                {
-                    "descriptionIconImageURL": "icon.jpeg",
-                    "description": "discover click me",
-                    "linkURL": "http://www.example.com",
-                    "contentItemPosition": [
-                        0.7,
-                        0.7
-                    ],
-                    "contentItemSize": [
-                        1,
-                        1
-                    ]
-                }
-            ]
+            "contentItems": []
         }
     ]
 }
