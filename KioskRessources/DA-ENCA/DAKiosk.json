@@ -2,11 +2,11 @@
     "kioskColor": "4E5B73",
     "totalPanels": 12,
     "firstPanelIndex": 1,
-    "seperatorBackgroundImageURL": "KioskRessources/DA/CSPSWave.png",
+    "seperatorBackgroundImageURL": "KioskRessources/DA-ENCA/CSPSWave.png",
     "panels": [
         {
-            "backgroundImageURL": "KioskRessources/DA/Panel_CSPSLeft.png",
-            "titlePanelImageURL": "KioskRessources/DA/Panel_CSPSTitle_Left.png",
+            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSLeft.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle_Left.png",
             "titlePanelCoordinates": [
                 0,
                 -0.384
@@ -14,8 +14,8 @@
             "contentItems": []
         },
         {
-            "backgroundImageURL": "KioskRessources/DA/Panel_CSPSCenter.png",
-            "titlePanelImageURL": "KioskRessources/DA/Panel_CSPSTitle.png",
+            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSCenter.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle.png",
             "titlePanelCoordinates": [
                 0,
                 0
@@ -63,8 +63,8 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/DA/Panel_CSPSRight.png",
-            "titlePanelImageURL": "KioskRessources/DA/Panel_CSPSTitle_Right.png",
+            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSRight.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle_Right.png",
             "titlePanelCoordinates": [
                 0,
                 -0.384
