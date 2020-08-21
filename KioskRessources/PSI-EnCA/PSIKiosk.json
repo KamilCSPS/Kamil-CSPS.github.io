@@ -1,0 +1,75 @@
+{
+    "kioskColor": "4E5B73",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/DA-ENCA/CSPSWave.png",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSLeft.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle_Left.png",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSCenter.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle.png",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "DA website click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemPosition": [
+                        1.0,
+                        0.865
+                    ],
+                    "contentItemSize": [
+                        2.25,
+                        1.3
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "DA website click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemPosition": [
+                        1.324,
+                        1.625
+                    ],
+                    "contentItemSize": [
+                        1.565,
+                        0.915
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "DA website click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemPosition": [
+                        1.324,
+                        2.257
+                    ],
+                    "contentItemSize": [
+                        1.565,
+                        0.915
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSRight.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle_Right.png",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": []
+        }
+    ]
+}
