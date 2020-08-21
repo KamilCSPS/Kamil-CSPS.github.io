@@ -2,11 +2,11 @@
     "kioskColor": "#3F2A56",
     "totalPanels": 12,
     "firstPanelIndex": 1,
-    "seperatorBackgroundImageURL": "KioskRessources/DA-ENCA/CSPSWave.png",
+    "seperatorBackgroundImageURL": "KioskRessources/DA-EnCA/CSPSWave.png",
     "panels": [
         {
-            "backgroundImageURL": "KioskRessources/DA-ENCA/K1 - Left Panel.png",
-            "titlePanelImageURL": "KioskRessources/DA-ENCA/K1 - Left Panel - Title.png",
+            "backgroundImageURL": "KioskRessources/DA-EnCA/K1 - Left Panel.png",
+            "titlePanelImageURL": "KioskRessources/DA-EnCA/K1 - Left Panel - Title.png",
             "titlePanelCoordinates": [
                 0,
                 -0.384
@@ -14,8 +14,8 @@
             "contentItems": []
         },
         {
-            "backgroundImageURL": "KioskRessources/DA-ENCA/K1 - Central Panel.png",
-            "titlePanelImageURL": "KioskRessources/DA-ENCA/K1 - Central Panel - Title.png",
+            "backgroundImageURL": "KioskRessources/DA-EnCA/K1 - Central Panel.png",
+            "titlePanelImageURL": "KioskRessources/DA-EnCA/K1 - Central Panel - Title.png",
             "titlePanelCoordinates": [
                 0,
                 0
@@ -63,8 +63,8 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/DA-ENCA/K1 - Right Panel.png",
-            "titlePanelImageURL": "KioskRessources/DA-ENCA/K1 - Right Panel - Title.png",
+            "backgroundImageURL": "KioskRessources/DA-EnCA/K1 - Right Panel.png",
+            "titlePanelImageURL": "KioskRessources/DA-EnCA/K1 - Right Panel - Title.png",
             "titlePanelCoordinates": [
                 0,
                 -0.384
