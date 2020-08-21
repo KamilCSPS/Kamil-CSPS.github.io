@@ -2,7 +2,7 @@
     "kioskColor": "#3F2A56",
     "totalPanels": 12,
     "firstPanelIndex": 1,
-    "seperatorBackgroundImageURL": "KioskRessources/DA-EnCA/CSPSWave.png",
+    "seperatorBackgroundImageURL": "KioskRessources/DA-EnCA/Kiosk panel separator.png",
     "panels": [
         {
             "backgroundImageURL": "KioskRessources/DA-EnCA/K1 - Left Panel.png",
