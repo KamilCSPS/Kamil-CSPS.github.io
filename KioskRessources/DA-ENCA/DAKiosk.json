@@ -1,12 +1,12 @@
 {
-    "kioskColor": "4E5B73",
+    "kioskColor": "#3F2A56",
     "totalPanels": 12,
     "firstPanelIndex": 1,
     "seperatorBackgroundImageURL": "KioskRessources/DA-ENCA/CSPSWave.png",
     "panels": [
         {
-            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSLeft.png",
-            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle_Left.png",
+            "backgroundImageURL": "KioskRessources/DA-ENCA/K1 - Left Panel.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/K1 - Left Panel - Title.png",
             "titlePanelCoordinates": [
                 0,
                 -0.384
@@ -14,8 +14,8 @@
             "contentItems": []
         },
         {
-            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSCenter.png",
-            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle.png",
+            "backgroundImageURL": "KioskRessources/DA-ENCA/K1 - Central Panel.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/K1 - Central Panel - Title.png",
             "titlePanelCoordinates": [
                 0,
                 0
@@ -24,7 +24,7 @@
                 {
                     "descriptionIconImageURL": "icon.jpeg",
                     "description": "DA website click me",
-                    "linkURL": "http://www.example.com",
+                    "linkURL": "http://www.example2.com",
                     "contentItemPosition": [
                         1.0,
                         0.865
@@ -63,8 +63,8 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/DA-ENCA/Panel_CSPSRight.png",
-            "titlePanelImageURL": "KioskRessources/DA-ENCA/Panel_CSPSTitle_Right.png",
+            "backgroundImageURL": "KioskRessources/DA-ENCA/K1 - Right Panel.png",
+            "titlePanelImageURL": "KioskRessources/DA-ENCA/K1 - Right Panel - Title.png",
             "titlePanelCoordinates": [
                 0,
                 -0.384
