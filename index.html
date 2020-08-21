@@ -44,8 +44,6 @@
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
       
       var kioskDataURL = 'KioskRessources/DA-ENCA/DAKiosk.json';
-      canvas.style.width = "100%";
-      canvas.style.height = "100%";
 
       loadingBar.style.display = "block";
 
@@ -58,8 +56,6 @@
             canvas.width = window.innerWidth;
         }).then((unityInstance) => {
             loadingBar.style.display = "none";
-            canvas.height = "720";
-            canvas.width = "1280";
             unityInstance.SendMessage('Application', 'LoadKiosk', kioskDataURL);
             gtag('event', 'page_view', {
                 'event_callback': function () {
