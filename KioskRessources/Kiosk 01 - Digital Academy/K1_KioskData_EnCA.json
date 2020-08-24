@@ -22,9 +22,9 @@
             ],
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "icon.jpeg",
-                    "description": "DA website click me",
-                    "linkURL": "http://www.example2.com",
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/Youtube.png",
+                    "description": "What does it mean to be digital. Watch the video.",
+                    "linkURL": "https://www.youtube.com/watch?v=TZ-TA44WWHc",
                     "contentItemPosition": [
                         1.0,
                         0.865
@@ -35,9 +35,9 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "icon.jpeg",
-                    "description": "DA website click me",
-                    "linkURL": "http://www.example.com",
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "description": "Learn more about the Digital Academy courses and learning offerings. Visit the website.",
+                    "linkURL": "https://www.csps-efpc.gc.ca/digital-academy/index-eng.aspx",
                     "contentItemPosition": [
                         1.324,
                         1.625
@@ -48,9 +48,9 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "icon.jpeg",
-                    "description": "DA website click me",
-                    "linkURL": "http://www.example2.com",
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/BusridesLogo.png",
+                    "description": "FWDThinking is a learning series in a talk show format about how to do government differently, using the culture, practices and technologies of the digital era. View the episodes.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/tag/en-fwdthinking-series/",
                     "contentItemPosition": [
                         1.324,
                         2.257
