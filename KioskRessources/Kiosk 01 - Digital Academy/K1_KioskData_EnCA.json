@@ -1,0 +1,75 @@
+{
+    "kioskColor": "#3F2A56",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.png",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_LeftPanel_EnCA.png",
+            "titlePanelImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_LeftPanel_Title_EnCA.png",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_CentralPanel_EnCA.png",
+            "titlePanelImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_CentralPanel_Title_EnCA.png",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "DA website click me",
+                    "linkURL": "http://www.example2.com",
+                    "contentItemPosition": [
+                        1.0,
+                        0.865
+                    ],
+                    "contentItemSize": [
+                        2.25,
+                        1.3
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "DA website click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemPosition": [
+                        1.324,
+                        1.625
+                    ],
+                    "contentItemSize": [
+                        1.565,
+                        0.915
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "icon.jpeg",
+                    "description": "DA website click me",
+                    "linkURL": "http://www.example.com",
+                    "contentItemPosition": [
+                        1.324,
+                        2.257
+                    ],
+                    "contentItemSize": [
+                        1.565,
+                        0.915
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_RightPanel_EnCA.png",
+            "titlePanelImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_RightPanel_Title_EnCA.png",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": []
+        }
+    ]
+}

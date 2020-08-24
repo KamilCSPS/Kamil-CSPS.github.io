@@ -1,0 +1,25 @@
+{
+    "kioskColor": "#fcfcfc",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.png",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 04 - Data Community/Kiosk_04_LeftPanel_EnCA.png",
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 04 - Data Community/Kiosk_04_CentralPanel_EnCA.png",
+            "titlePanelImageURL": "KioskRessources/Kiosk 04 - Data Community/Kiosk_04_CentralPanel_Title_EnCA.png",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 04 - Data Community/Kiosk_04_RightPanel_EnCA.png",
+            "contentItems": []
+        }
+    ]
+}
