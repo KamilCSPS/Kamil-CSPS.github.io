@@ -11,7 +11,60 @@
                 0,
                 -0.384
             ],
-            "contentItems": []
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/BusridesLogo.png",
+                    "description": "GC nuance meets digital know-how. Visit Busrides.ca.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/",
+                    "contentItemPosition": [
+                        -33,
+                        111
+                    ],
+                    "contentItemSize": [
+                        104,
+                        62
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/BusridesLogo.png",
+                    "description": "Learn about Busrides and how you could be a guest writer.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/en/about/",
+                    "contentItemPosition": [
+                        52.5,
+                        133
+                    ],
+                    "contentItemSize": [
+                        64,
+                        106
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/BusridesLogo.png",
+                    "description": "Want to learn more about data? Check out the Busrides episode we have on this topic.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/tag/en-data/",
+                    "contentItemPosition": [
+                        -48.5,
+                        207
+                    ],
+                    "contentItemSize": [
+                        35,
+                        50
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/BusridesLogo.png",
+                    "description": "Think you have telework figured out? View the Going Remote Guide for tips and tricks.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/en/going-remote-guide/",
+                    "contentItemPosition": [
+                        -17,
+                        207
+                    ],
+                    "contentItemSize": [
+                        35,
+                        50
+                    ]
+                }
+            ]
         },
         {
             "backgroundImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_CentralPanel_EnCA.png",
@@ -22,16 +75,29 @@
             ],
             "contentItems": [
                 {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/ContactUs.png",
+                    "description": "Contact us.",
+                    "linkURL": "mailto:csps.digitalacademy-academiedunumerique.efpc@canada.ca",
+                    "contentItemPosition": [
+                        0,
+                        0
+                    ],
+                    "contentItemSize": [
+                        192,
+                        65
+                    ]
+                },
+                {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/Youtube.png",
                     "description": "What does it mean to be digital. Watch the video.",
                     "linkURL": "https://www.youtube.com/watch?v=TZ-TA44WWHc",
                     "contentItemPosition": [
-                        1.0,
-                        0.865
+                        0,
+                        86.5
                     ],
                     "contentItemSize": [
-                        2.25,
-                        1.3
+                        148,
+                        87.5
                     ]
                 },
                 {
@@ -39,12 +105,12 @@
                     "description": "Learn more about the Digital Academy courses and learning offerings. Visit the website.",
                     "linkURL": "https://www.csps-efpc.gc.ca/digital-academy/index-eng.aspx",
                     "contentItemPosition": [
-                        1.324,
-                        1.625
+                        32.5,
+                        162.5
                     ],
                     "contentItemSize": [
-                        1.565,
-                        0.915
+                        103,
+                        62
                     ]
                 },
                 {
@@ -52,12 +118,38 @@
                     "description": "FWDThinking is a learning series in a talk show format about how to do government differently, using the culture, practices and technologies of the digital era. View the episodes.",
                     "linkURL": "https://busrides-trajetsenbus.ca/tag/en-fwdthinking-series/",
                     "contentItemPosition": [
-                        1.324,
-                        2.257
+                        32,
+                        226
                     ],
                     "contentItemSize": [
-                        1.565,
-                        0.915
+                        103,
+                        62
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/Twitter.png",
+                    "description": "Follow us on Twitter.",
+                    "linkURL": "https://twitter.com/DigiAcademyCAN",
+                    "contentItemPosition": [
+                        -52.5,
+                        184.5
+                    ],
+                    "contentItemSize": [
+                        63,
+                        105.5
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/MailchimpLogo.png",
+                    "description": "Join the Digital Academy mailing list to get the latest info on our offerings and upcoming events.",
+                    "linkURL": "https://da-an.us3.list-manage.com/subscribe?u=9e5810d743bf898c302d3c312&id=bbc8bab3e7",
+                    "contentItemPosition": [
+                        -52.5,
+                        252
+                    ],
+                    "contentItemSize": [
+                        63,
+                        28
                     ]
                 }
             ]
@@ -69,7 +161,47 @@
                 0,
                 -0.384
             ],
-            "contentItems": []
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/DiscoverSeries.png",
+                    "description": "Learn about the Discover Series. Visit the website.",
+                    "linkURL": "https://www.csps-efpc.gc.ca/discover-series/index-eng.aspx",
+                    "contentItemPosition": [
+                        47.5,
+                        108.1
+                    ],
+                    "contentItemSize": [
+                        93.5,
+                        56.5
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/DiscoverSeries.png",
+                    "description": "Want to learn about data? See the Discover Data courses list.",
+                    "linkURL": "https://www.csps-efpc.gc.ca/discover-series/data-eng.aspx",
+                    "contentItemPosition": [
+                        -47.8,
+                        165.8
+                    ],
+                    "contentItemSize": [
+                        93.5,
+                        56.5
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/DiscoverSeries.png",
+                    "description": "Get a bird's eye view of the Discover series and what we're working on.",
+                    "linkURL": "TBD",
+                    "contentItemPosition": [
+                        47.2,
+                        223.8
+                    ],
+                    "contentItemSize": [
+                        93.5,
+                        56.5
+                    ]
+                }
+            ]
         }
     ]
 }
