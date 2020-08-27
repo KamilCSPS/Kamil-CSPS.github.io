@@ -6,7 +6,21 @@
     "panels": [
         {
             "backgroundImageURL": "KioskRessources/Kiosk 04 - Data Community/Kiosk_04_LeftPanel_EnCA.jpg",
-            "contentItems": []
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/AnnualDataConference.png",
+                    "description": "Annual Government of Canada Data Conference",
+                    "linkURL": "Docs/DC/GC_Data_Conference_Info_Sheet_En.pdf",
+                    "contentItemPosition": [
+                        0,
+                        181
+                    ],
+                    "contentItemSize": [
+                        145,
+                        85
+                    ]
+                }
+            ]
         },
         {
             "backgroundImageURL": "KioskRessources/Kiosk 04 - Data Community/Kiosk_04_CentralPanel_EnCA.jpg",
@@ -15,11 +29,65 @@
                 0,
                 0
             ],
-            "contentItems": []
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/DataCommunity.png",
+                    "description": "Data Community of Partnership Office",
+                    "linkURL": "Docs/DC/Data_CoP_Office_En.pdf",
+                    "contentItemPosition": [
+                        0,
+                        151
+                    ],
+                    "contentItemSize": [
+                        148.5,
+                        87
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/DataCommunity.png",
+                    "description": "Data Community Placemat",
+                    "linkURL": "Docs/DC/Data_Community_Placemat_En.pdf",
+                    "contentItemPosition": [
+                        0,
+                        240
+                    ],
+                    "contentItemSize": [
+                        148.5,
+                        87
+                    ]
+                }
+            ]
         },
         {
             "backgroundImageURL": "KioskRessources/Kiosk 04 - Data Community/Kiosk_04_RightPanel_EnCA.jpg",
-            "contentItems": []
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/Youtube.png",
+                    "description": "Day 1: Data Conference 2020",
+                    "linkURL": "https://www.youtube.com/watch?v=9JF8QC71E38",
+                    "contentItemPosition": [
+                        3.5,
+                        100
+                    ],
+                    "contentItemSize": [
+                        145,
+                        85
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/Youtube.png",
+                    "description": "Day 2: Data Conference 2020",
+                    "linkURL": "https://www.youtube.com/watch?v=Uf5E2ssxK0U",
+                    "contentItemPosition": [
+                        3.5,
+                        200
+                    ],
+                    "contentItemSize": [
+                        145,
+                        85
+                    ]
+                }
+            ]
         }
     ]
 }
