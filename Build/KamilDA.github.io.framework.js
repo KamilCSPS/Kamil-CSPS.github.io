@@ -1299,7 +1299,7 @@ function _emscripten_asm_const_ii(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 3335344;
+STATICTOP = STATIC_BASE + 3335200;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_AccessibilityScriptingClasses_cpp();
@@ -3229,7 +3229,7 @@ __ATINIT__.push({
   ___emscripten_environ_constructor();
  })
 });
-var STATIC_BUMP = 3335344;
+var STATIC_BUMP = 3335200;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
@@ -3245,10 +3245,6 @@ function _JS_Cursor_SetShow(show) {
 }
 function _JS_Eval_ClearInterval(id) {
  window.clearInterval(id);
-}
-function _JS_Eval_OpenURL(ptr) {
- var str = Pointer_stringify(ptr);
- location.href = str;
 }
 function _JS_Eval_SetInterval(func, arg, millis) {
  Module["noExitRuntime"] = true;
@@ -3466,12 +3462,17 @@ function _JS_WebRequest_SetTimeout(request, timeout) {
 }
 function _OutboundClickGA(str) {
  var urlClicked = Pointer_stringify(str);
+ window.open(urlClicked, "_blank");
  gtag("event", urlClicked, {
   "event_category": "ClickOutbound",
   "event_callback": (function() {
    console.log("SendURL GTAG event_callback :" + urlClicked);
   })
  });
+}
+function _OutboundClickNonGA(str) {
+ var urlClicked = Pointer_stringify(str);
+ window.open(urlClicked, "_blank");
 }
 function ___atomic_compare_exchange_8(ptr, expected, desiredl, desiredh, weak, success_memmodel, failure_memmodel) {
  var pl = HEAP32[ptr >> 2];
@@ -19016,7 +19017,6 @@ Module.asmLibraryArg = {
  "_JS_Cursor_SetImage": _JS_Cursor_SetImage,
  "_JS_Cursor_SetShow": _JS_Cursor_SetShow,
  "_JS_Eval_ClearInterval": _JS_Eval_ClearInterval,
- "_JS_Eval_OpenURL": _JS_Eval_OpenURL,
  "_JS_Eval_SetInterval": _JS_Eval_SetInterval,
  "_JS_FileSystem_Initialize": _JS_FileSystem_Initialize,
  "_JS_FileSystem_Sync": _JS_FileSystem_Sync,
@@ -19045,6 +19045,7 @@ Module.asmLibraryArg = {
  "_JS_WebRequest_SetResponseHandler": _JS_WebRequest_SetResponseHandler,
  "_JS_WebRequest_SetTimeout": _JS_WebRequest_SetTimeout,
  "_OutboundClickGA": _OutboundClickGA,
+ "_OutboundClickNonGA": _OutboundClickNonGA,
  "__ZSt18uncaught_exceptionv": __ZSt18uncaught_exceptionv,
  "___atomic_compare_exchange_8": ___atomic_compare_exchange_8,
  "___atomic_fetch_add_8": ___atomic_fetch_add_8,

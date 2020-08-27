@@ -8,7 +8,7 @@
             "backgroundImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_LeftPanel_EnCA.jpg",
             "titlePanelImageURL": "KioskRessources/Kiosk 01 - Digital Academy/Kiosk_01_LeftPanel_Title_EnCA.jpg",
             "titlePanelCoordinates": [
-                0.0,
+                0,
                 -0.384
             ],
             "contentItems": [
