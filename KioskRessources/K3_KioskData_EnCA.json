@@ -2,13 +2,13 @@
     "kioskColor": "#A1A199",
     "totalPanels": 12,
     "firstPanelIndex": 1,
-    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "seperatorBackgroundImageURL": "../../KioskRessources/KioskPanelSeparator_EnCA.jpg",
     "panels": [
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_LeftPanel_EnCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_LeftPanel_EnCA.jpg",
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/About.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/About.png",
                     "description": "About the program",
                     "linkURL": "Docs/EL/ELDP_En.pdf",
                     "contentItemPosition": [
@@ -21,7 +21,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/OverviewLearningEX.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/OverviewLearningEX.png",
                     "description": "Overview of learning opportunities for Executives",
                     "linkURL": "Docs/EL/EL_Placemat_En.pdf",
                     "contentItemPosition": [
@@ -34,7 +34,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Roadmap.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Roadmap.png",
                     "description": "Cohort 6 Learning Roadmap",
                     "linkURL": "Docs/EL/Cohort_6_Learning_Roadmap_En.pdf",
                     "contentItemPosition": [
@@ -47,7 +47,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Learning.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Learning.png",
                     "description": "ADM Learning",
                     "linkURL": "Docs/EL/ADM_Learning_En.pdf",
                     "contentItemPosition": [
@@ -60,7 +60,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/LearningPath.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/LearningPath.png",
                     "description": "Learning Path for executives",
                     "linkURL": "https://www.csps-efpc.gc.ca/exdev-eng.aspx",
                     "contentItemPosition": [
@@ -75,15 +75,15 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_EnCA.jpg",
-            "titlePanelImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_Title_EnCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_Title_EnCA.jpg",
             "titlePanelCoordinates": [
                 0,
                 0
             ],
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Subscribe.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Subscribe.png",
                     "description": "Subscribe to the Learning for Executives monthly update",
                     "linkURL": "mailto:csps.executivelearning-apprentissagepourlescadres.efpc@canada.ca?subject=Subscribe me to the Learning for Executives monthly update / Abonnez-moi � la mise � jour mensuelle d�Apprentissage pour les cadres",
                     "contentItemPosition": [
@@ -96,7 +96,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Podcast.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Podcast.png",
                     "description": "Tune in to the How to Survive as an Executive podcast series",
                     "linkURL": "https://www.csps-efpc.gc.ca/podcasts/index-eng.aspx#surv",
                     "contentItemPosition": [
@@ -109,7 +109,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Twitter.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Twitter.png",
                     "description": "Follow-us on Twitter",
                     "linkURL": "https://twitter.com/School_GC",
                     "contentItemPosition": [
@@ -122,7 +122,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/ContactUs.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/ContactUs.png",
                     "description": "Email-us",
                     "linkURL": "mailto:csps.executivelearning-apprentissagepourlescadres.efpc@canada.ca",
                     "contentItemPosition": [
@@ -137,10 +137,10 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_RightPanel_EnCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_RightPanel_EnCA.jpg",
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/CSPSlogo.png",
                     "description": "The New Directors Program is going virtual! ",
                     "linkURL": "https://www.csps-efpc.gc.ca/Catalogue/programs/new-directors-eng.aspx",
                     "contentItemPosition": [
@@ -153,7 +153,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/CSPSlogo.png",
                     "description": "The Directors General Program is going virtual!",
                     "linkURL": "https://www.csps-efpc.gc.ca/Catalogue/programs/directors-general-eng.aspx",
                     "contentItemPosition": [
@@ -166,7 +166,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/CSPSlogo.png",
                     "description": "30-minute monthly webcasts featuring engaging leaders.",
                     "linkURL": "https://www.csps-efpc.gc.ca/events/executalk/index-eng.aspx",
                     "contentItemPosition": [

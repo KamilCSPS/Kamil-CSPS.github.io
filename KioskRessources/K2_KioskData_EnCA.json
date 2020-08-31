@@ -2,13 +2,13 @@
     "kioskColor": "#A1A199",
     "totalPanels": 12,
     "firstPanelIndex": 1,
-    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "seperatorBackgroundImageURL": "../../KioskRessources/KioskPanelSeparator_EnCA.jpg",
     "panels": [
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_LeftPanel_EnCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_LeftPanel_EnCA.jpg",
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/WhatWeOffer.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/WhatWeOffer.png",
                     "description": "What we offer",
                     "linkURL": "Docs/PSI/VK_2_En.pdf",
                     "contentItemPosition": [
@@ -21,7 +21,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/HowDoWeWork.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/HowDoWeWork.png",
                     "description": "How do we work?",
                     "linkURL": "Docs/PSI/VK_3_En.pdf",
                     "contentItemPosition": [
@@ -36,15 +36,15 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_CentralPanel_EnCA.jpg",
-            "titlePanelImageURL": "KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_CentralPanel_Title_EnCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "../../KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_CentralPanel_Title_EnCA.jpg",
             "titlePanelCoordinates": [
                 0,
                 0
             ],
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/WhoWeAre.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/WhoWeAre.png",
                     "description": "Who are we?",
                     "linkURL": "Docs/PSI/VK_1_En.pdf",
                     "contentItemPosition": [
@@ -59,10 +59,10 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_RightPanel_EnCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 02 - Public Sector Innovation/Kiosk_02_RightPanel_EnCA.jpg",
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Explore.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Explore.png",
                     "description": "Explore our Projects !",
                     "linkURL": "Docs/PSI/VK_4_En.pdf",
                     "contentItemPosition": [
@@ -75,7 +75,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/LessonsLearned.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/LessonsLearned.png",
                     "description": "Demonstration Projects Lessons Learned",
                     "linkURL": "Docs/PSI/VK_5_En.pdf",
                     "contentItemPosition": [
