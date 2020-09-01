@@ -10,7 +10,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/About.png",
                     "description": "À propos du programme",
-                    "linkURL": "https://expo.da-an.ca/Docs/EL/ELDP_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/ELDP_Fr.pdf",
                     "contentItemPosition": [
                         -42,
                         89.5
@@ -23,7 +23,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/OverviewLearningEX.png",
                     "description": "Survol des occasions d’apprentissage pour les cadres",
-                    "linkURL": "https://expo.da-an.ca/Docs/EL/EL_Placemat_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/EL_Placemat_Fr.pdf",
                     "contentItemPosition": [
                         42.5,
                         131
@@ -36,7 +36,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/Roadmap.png",
                     "description": "Feuille de route d'apprentissage -  cohorte 6",
-                    "linkURL": "https://expo.da-an.ca/Docs/EL/Cohort_6_Learning_Roadmap_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/Cohort_6_Learning_Roadmap_Fr.pdf",
                     "contentItemPosition": [
                         -42.5,
                         149.5
@@ -49,7 +49,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/Learning.png",
                     "description": "Apprentissage SMA",
-                    "linkURL": "https://expo.da-an.ca/Docs/EL/ADM_Learning_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/ADM_Learning_Fr.pdf",
                     "contentItemPosition": [
                         58,
                         206.5
