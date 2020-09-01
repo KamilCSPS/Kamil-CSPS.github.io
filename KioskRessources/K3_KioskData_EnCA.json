@@ -10,7 +10,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/About.png",
                     "description": "About the program",
-                    "linkURL": "Docs/EL/ELDP_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/EL/ELDP_En.pdf",
                     "contentItemPosition": [
                         -42,
                         89.5
@@ -23,7 +23,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/OverviewLearningEX.png",
                     "description": "Overview of learning opportunities for Executives",
-                    "linkURL": "Docs/EL/EL_Placemat_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/EL/EL_Placemat_En.pdf",
                     "contentItemPosition": [
                         42.5,
                         131
@@ -36,7 +36,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/Roadmap.png",
                     "description": "Cohort 6 Learning Roadmap",
-                    "linkURL": "Docs/EL/Cohort_6_Learning_Roadmap_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/EL/Cohort_6_Learning_Roadmap_En.pdf",
                     "contentItemPosition": [
                         -42.5,
                         149.5
@@ -49,7 +49,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/Learning.png",
                     "description": "ADM Learning",
-                    "linkURL": "Docs/EL/ADM_Learning_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/EL/ADM_Learning_En.pdf",
                     "contentItemPosition": [
                         58,
                         206.5

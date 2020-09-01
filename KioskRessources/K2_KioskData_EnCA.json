@@ -10,7 +10,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/WhatWeOffer.png",
                     "description": "What we offer",
-                    "linkURL": "Docs/PSI/VK_2_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/PSI/VK_2_En.pdf",
                     "contentItemPosition": [
                         -45,
                         199
@@ -23,7 +23,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/HowDoWeWork.png",
                     "description": "How do we work?",
-                    "linkURL": "Docs/PSI/VK_3_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/PSI/VK_3_En.pdf",
                     "contentItemPosition": [
                         50,
                         163
@@ -46,7 +46,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/WhoWeAre.png",
                     "description": "Who are we?",
-                    "linkURL": "Docs/PSI/VK_1_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/PSI/VK_1_En.pdf",
                     "contentItemPosition": [
                         0,
                         183
@@ -64,7 +64,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/Explore.png",
                     "description": "Explore our Projects !",
-                    "linkURL": "Docs/PSI/VK_4_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/PSI/VK_4_En.pdf",
                     "contentItemPosition": [
                         -47.5,
                         174
@@ -77,7 +77,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/LessonsLearned.png",
                     "description": "Demonstration Projects Lessons Learned",
-                    "linkURL": "Docs/PSI/VK_5_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/PSI/VK_5_En.pdf",
                     "contentItemPosition": [
                         42.5,
                         222.5

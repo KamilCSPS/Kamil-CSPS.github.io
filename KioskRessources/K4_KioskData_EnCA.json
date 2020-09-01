@@ -10,7 +10,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/AnnualDataConference.png",
                     "description": "Annual Government of Canada Data Conference",
-                    "linkURL": "Docs/DC/GC_Data_Conference_Info_Sheet_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/DC/GC_Data_Conference_Info_Sheet_En.pdf",
                     "contentItemPosition": [
                         0,
                         181
@@ -33,7 +33,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/DataCommunity.png",
                     "description": "Data Community of Partnership Office",
-                    "linkURL": "Docs/DC/Data_CoP_Office_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/DC/Data_CoP_Office_En.pdf",
                     "contentItemPosition": [
                         0,
                         128
@@ -46,7 +46,7 @@
                 {
                     "descriptionIconImageURL": "../../KioskRessources/Card Icons/DataCommunity.png",
                     "description": "Data Community Placemat",
-                    "linkURL": "Docs/DC/Data_Community_Placemat_En.pdf",
+                    "linkURL": "https://expo.da-an.ca/Docs/DC/Data_Community_Placemat_En.pdf",
                     "contentItemPosition": [
                         0,
                         217
