@@ -48,7 +48,7 @@
                 },
                 {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/Learning.png",
-                    "description": "Apprentissage SMA",
+                    "description": "Apprentissage pour les SMA",
                     "linkURL": "Docs/EL/ADM_Learning_Fr.pdf",
                     "contentItemPosition": [
                         58,
@@ -84,7 +84,7 @@
             "contentItems": [
                 {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/Subscribe.png",
-                    "description": "Abonnez-vous à la mise à jour mensuelle d’Apprentissage pour les cadres",
+                    "description": "Abonnez-vous à la mise à jour mensuelle de l’Apprentissage pour les cadres",
                     "linkURL": "mailto:csps.executivelearning-apprentissagepourlescadres.efpc@canada.ca?subject=Subscribe me to the Learning for Executives monthly update / Abonnez-moi à la mise à jour mensuelle d’Apprentissage pour les cadres",
                     "contentItemPosition": [
                         0,
