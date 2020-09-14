@@ -9,9 +9,10 @@
         gtag('js', new Date());
         gtag('config', '', { 'send_page_view': false });
     </script>
+    <script src="TemplateData/ParamLoader.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>CSPS | 2002_VirtualExpo</title>
+    <title>CSPS | 2004_vKiosk RPA Day (Sept 2020)</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
 </head>
@@ -25,49 +26,56 @@
             </div>
         </div>
     </div>
+    <div class="toolbar"><ul><li class="icon" tabindex="0"><a href="#/mobile/"><img src="TemplateData/accessibility.png" /></a></li><li><a href="#/fr/">FR</a></li></ul></div>
     <script>
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/KamilDA.github.io.loader.js";
-      var config = {
-        dataUrl: buildUrl + "/KamilDA.github.io.data",
-        frameworkUrl: buildUrl + "/KamilDA.github.io.framework.js",
-        codeUrl: buildUrl + "/KamilDA.github.io.wasm",
-        streamingAssetsUrl: "StreamingAssets",
-        companyName: "CSPS",
-        productName: "2002_VirtualExpo",
-        productVersion: "0.1",
-      };
+        var buildUrl = "Build";
+        var loaderUrl = buildUrl + "/KamilDA.github.io.loader.js";
+        var config = {
+            dataUrl: buildUrl + "/KamilDA.github.io.data",
+            frameworkUrl: buildUrl + "/KamilDA.github.io.framework.js",
+            codeUrl: buildUrl + "/KamilDA.github.io.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "CSPS",
+            productName: "2004_vKiosk RPA Day (Sept 2020)",
+            productVersion: "0.1",
+        };
+        
+        var container = document.querySelector("#unity-container");
+        var canvas = document.querySelector("#unity-canvas");
+        var loadingBar = document.querySelector("#unity-loading-bar");
+        var progressBarFull = document.querySelector("#unity-progress-bar-full");
 
-      var container = document.querySelector("#unity-container");
-      var canvas = document.querySelector("#unity-canvas");
-      var loadingBar = document.querySelector("#unity-loading-bar");
-      var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      
-      var kioskDataURL = 'KioskRessources/K1_KioskData_EnCA.json';
+        var kioskDataURL = GetUrlVars()['kioskdata'];
 
-      loadingBar.style.display = "block";
+            loadingBar.style.display = "block";
 
-      var script = document.createElement("script");
-      script.src = loaderUrl;
-    script.onload = () => {
-        createUnityInstance(canvas, config, (progress) => {
-            progressBarFull.style.width = 100 * progress + "%";
-            canvas.height = window.innerHeight;
-            canvas.width = window.innerWidth;
-        }).then((unityInstance) => {
-            loadingBar.style.display = "none";
-            unityInstance.SendMessage('Application', 'LoadKiosk', kioskDataURL);
-            gtag('event', 'page_view', {
-                'event_callback': function () {
-                    console.log('Google analytics is ready');
-                    unityInstance.SendMessage('Application', 'EnableGA', 'true');
-                }
-            });
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
+            var script = document.createElement("script");
+            script.src = loaderUrl;
+
+        if (kioskDataURL == undefined) {
+            container.style.display = 'none';
+            alert("No Kiosk JSON set in kioskDataURL");
+        } else {
+            script.onload = () => {
+                createUnityInstance(canvas, config, (progress) => {
+                    progressBarFull.style.width = 100 * progress + "%";
+                    canvas.height = window.innerHeight;
+                    canvas.width = window.innerWidth;
+                }).then((unityInstance) => {
+                    loadingBar.style.display = "none";
+                    unityInstance.SendMessage('Application', 'LoadKiosk', kioskDataURL);
+                    gtag('event', 'page_view', {
+                        'event_callback': function () {
+                            console.log('Google analytics is ready');
+                            unityInstance.SendMessage('Application', 'EnableGA', 'true');
+                        }
+                    });
+                }).catch((message) => {
+                    alert(message);
+                });
+            };
+            document.body.appendChild(script);
+        }
     </script>
 </body>
 </html>

@@ -1299,7 +1299,7 @@ function _emscripten_asm_const_ii(code, a0) {
  return ASM_CONSTS[code](a0);
 }
 STATIC_BASE = GLOBAL_BASE;
-STATICTOP = STATIC_BASE + 3335280;
+STATICTOP = STATIC_BASE + 3335296;
 __ATINIT__.push({
  func: (function() {
   __GLOBAL__sub_I_AccessibilityScriptingClasses_cpp();
@@ -3229,12 +3229,36 @@ __ATINIT__.push({
   ___emscripten_environ_constructor();
  })
 });
-var STATIC_BUMP = 3335280;
+var STATIC_BUMP = 3335296;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 var tempDoublePtr = STATICTOP;
 STATICTOP += 16;
 assert(tempDoublePtr % 8 == 0);
+function _JSONDownloader(str, fn) {
+ var jsonRaw = Pointer_stringify(str);
+ var fname = Pointer_stringify(fn);
+ var contentType = "application/json";
+ var data = new Blob([ jsonRaw ], {
+  type: contentType
+ });
+ var link = document.createElement("a");
+ link.download = fname;
+ link.innerHTML = "DownloadFile";
+ link.setAttribute("id", "JSONDownloaderLink");
+ if (window.webkitURL != null) {
+  link.href = window.webkitURL.createObjectURL(data);
+ } else {
+  link.href = window.URL.createObjectURL(data);
+  link.onclick = (function() {
+   var child = document.getElementById("JSONDownloaderLink");
+   child.parentNode.removeChild(child);
+  });
+  link.style.display = "none";
+  document.body.appendChild(link);
+ }
+ link.click();
+}
 function _JS_Cursor_SetImage(ptr, length) {
  var binary = "";
  for (var i = 0; i < length; i++) binary += String.fromCharCode(HEAPU8[ptr + i]);
@@ -19014,6 +19038,7 @@ Module.asmLibraryArg = {
  "invoke_vjii": invoke_vjii,
  "invoke_vjiiii": invoke_vjiiii,
  "invoke_vjji": invoke_vjji,
+ "_JSONDownloader": _JSONDownloader,
  "_JS_Cursor_SetImage": _JS_Cursor_SetImage,
  "_JS_Cursor_SetShow": _JS_Cursor_SetShow,
  "_JS_Eval_ClearInterval": _JS_Eval_ClearInterval,
