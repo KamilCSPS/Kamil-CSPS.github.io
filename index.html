@@ -29,6 +29,7 @@
     <div class="toolbar"><ul><li class="icon" tabindex="0"><a href="#/mobile/"><img src="TemplateData/accessibility.png" /></a></li><li><a href="#/fr/">FR</a></li></ul></div>
     <script>
         var buildUrl = "Build";
+        var ressourcesUrl = "KioskRessources";
         var loaderUrl = buildUrl + "/KamilDA.github.io.loader.js";
         var config = {
             dataUrl: buildUrl + "/KamilDA.github.io.data",
@@ -45,14 +46,14 @@
         var loadingBar = document.querySelector("#unity-loading-bar");
         var progressBarFull = document.querySelector("#unity-progress-bar-full");
 
-        var kioskDataURL = GetUrlVars()['kioskdata'];
+        var kioskDataURL = ressourcesUrl + "/" + GetUrlVars()['kioskdata'];
 
-            loadingBar.style.display = "block";
+        loadingBar.style.display = "block";
 
-            var script = document.createElement("script");
-            script.src = loaderUrl;
+        var script = document.createElement("script");
+        script.src = loaderUrl;
 
-        if (kioskDataURL == undefined) {
+        if (GetUrlVars()['kioskdata'] == undefined) {
             container.style.display = 'none';
             alert("No Kiosk JSON set in kioskDataURL");
         } else {
