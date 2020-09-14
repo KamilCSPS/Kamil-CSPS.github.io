@@ -26,10 +26,12 @@
             </div>
         </div>
     </div>
-    <div class="toolbar"><ul><li class="icon" tabindex="0"><a href="#/mobile/"><img src="TemplateData/accessibility.png" /></a></li><li><a href="#/fr/">FR</a></li></ul></div>
+    <div id="toolbar"><ul><li class="icon" tabindex="0"><a href="/#/mobile/"><img src="TemplateData/accessibility.png" /></a></li><li><a class="toolbar-lang" href=""></a></li></ul></div>
     <script>
         var buildUrl = "Build";
         var ressourcesUrl = "KioskRessources";
+        var lang = GetUrlVars()['lang'];
+        var langLink = document.querySelector(".toolbar-lang");
         var loaderUrl = buildUrl + "/KamilDA.github.io.loader.js";
         var config = {
             dataUrl: buildUrl + "/KamilDA.github.io.data",
@@ -40,23 +42,35 @@
             productName: "2004_vKiosk RPA Day (Sept 2020)",
             productVersion: "0.1",
         };
-        
+
         var container = document.querySelector("#unity-container");
         var canvas = document.querySelector("#unity-canvas");
         var loadingBar = document.querySelector("#unity-loading-bar");
         var progressBarFull = document.querySelector("#unity-progress-bar-full");
-
-        var kioskDataURL = ressourcesUrl + "/" + GetUrlVars()['kioskdata'];
 
         loadingBar.style.display = "block";
 
         var script = document.createElement("script");
         script.src = loaderUrl;
 
-        if (GetUrlVars()['kioskdata'] == undefined) {
+        if (GetUrlVars()['kioskdata'] == undefined || GetUrlVars()['lang'] == undefined) {
             container.style.display = 'none';
-            alert("No Kiosk JSON set in kioskDataURL");
+            alert("'kioskdata' / 'lang' Are not set | Ne sont pas déclarées");
         } else {
+            switch (lang) {
+                case "EnCA":
+                    langLink.innerHTML = "FR";
+                    langLink.href = "?lang=FrCA&kioskdata=" + GetUrlVars()['kioskdata'];
+                    break;
+                case "FrCA":
+                    langLink.innerHTML = "EN";
+                    langLink.href = "?lang=EnCA&kioskdata=" + GetUrlVars()['kioskdata'];
+                    break;
+                default:
+                    lang = undefined;
+            }
+            var kioskDataURL = ressourcesUrl + "/" + GetUrlVars()['kioskdata'] + "_" + GetUrlVars()['lang'] + ".json";
+
             script.onload = () => {
                 createUnityInstance(canvas, config, (progress) => {
                     progressBarFull.style.width = 100 * progress + "%";
