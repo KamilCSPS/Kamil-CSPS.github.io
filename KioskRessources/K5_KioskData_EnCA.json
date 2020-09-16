@@ -1,0 +1,93 @@
+{
+    "kioskColor": "#A1A199",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_LeftPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/AutomationAnywhere.png",
+                    "description": "Automate your processes. Propel your business.",
+                    "linkURL": "https://www.automationanywhere.com/",
+                    "contentItemPosition": [
+                        10,
+                        68
+                    ],
+                    "contentItemSize": [
+                        155,
+                        85
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/UiPath.png",
+                    "description": "We make robots so people don't have to be robots.",
+                    "linkURL": "https://www.uipath.com/",
+                    "contentItemPosition": [
+                        -20,
+                        157
+                    ],
+                    "contentItemSize": [
+                        137,
+                        77
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_CentralPanel_Title_EnCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/Blueprism.png",
+                    "description": "A Digital Workforce for Every Enterprise.",
+                    "linkURL": "https://www.blueprism.com/",
+                    "contentItemPosition": [
+                        23,
+                        251
+                    ],
+                    "contentItemSize": [
+                        145,
+                        55
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_RightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/Deloitte.png",
+                    "description": "We can help bring your ambitions to life.",
+                    "linkURL": "https://www2.deloitte.com/ca/en.html?icid=site_selector_ca",
+                    "contentItemPosition": [
+                        20,
+                        160
+                    ],
+                    "contentItemSize": [
+                        140,
+                        60
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/GreenLight.png",
+                    "description": "Delivering the future of work today.",
+                    "linkURL": "http://greenlightconsulting.com/",
+                    "contentItemPosition": [
+                        0,
+                        232
+                    ],
+                    "contentItemSize": [
+                        175,
+                        75
+                    ]
+                }
+            ]
+        }
+    ]
+}
