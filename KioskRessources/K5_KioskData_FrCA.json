@@ -2,10 +2,10 @@
     "kioskColor": "#A1A199",
     "totalPanels": 12,
     "firstPanelIndex": 1,
-    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_FrCA.jpg",
     "panels": [
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_LeftPanel_EnCA.jpg",
+            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_LeftPanel_FrCA.jpg",
             "contentItems": [
                 {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/AutomationAnywhere.png",
@@ -36,8 +36,8 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_CentralPanel_EnCA.jpg",
-            "titlePanelImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_CentralPanel_Title_EnCA.jpg",
+            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_CentralPanel_FrCA.jpg",
+            "titlePanelImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_CentralPanel_Title_FrCA.jpg",
             "titlePanelCoordinates": [
                 0,
                 0
@@ -45,7 +45,7 @@
             "contentItems": [
                 {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
-                    "description": "Assistez aux prÃ©sentations le 22 septembre 2020 | de 13 h Ã  16 h (HE)",
+                    "description": "Assistez aux présentations le 22 septembre 2020 | de 13 h à 16 h (HE)",
                     "linkURL": "http://collaboratevideo.net/csps-efpc/2020-09-22/",
                     "contentItemPosition": [
                         0,
@@ -58,7 +58,7 @@
                 },
                 {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/Blueprism.png",
-                    "description": "Une main d'oeuvre numÃ©rique pour chaque entreprise.",
+                    "description": "Une main d'oeuvre numérique pour chaque entreprise.",
                     "linkURL": "https://www.blueprism.com/fr/",
                     "contentItemPosition": [
                         19,
@@ -72,11 +72,11 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_RightPanel_EnCA.jpg",
+            "backgroundImageURL": "KioskRessources/Kiosk 05 - Robotic Process Automation/Kiosk_05_RightPanel_FrCA.jpg",
             "contentItems": [
                 {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/Deloitte.png",
-                    "description": "Nous pouvons vous aider Ã  concrÃ©tiser vos ambitions.",
+                    "description": "Nous pouvons vous aider à concrétiser vos ambitions.",
                     "linkURL": "https://www2.deloitte.com/ca/fr.html?icid=site_selector_ca",
                     "contentItemPosition": [
                         20,
@@ -89,7 +89,7 @@
                 },
                 {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/GreenLight.png",
-                    "description": "Nous livrons le future du travail aujourd'hui. (Site anglais)",
+                    "description": "Nous livrons le future du travail aujourd’hui. (Site anglais)",
                     "linkURL": "http://greenlightconsulting.com/",
                     "contentItemPosition": [
                         -20,
