@@ -12,12 +12,12 @@
                     "description": "Automate your processes. Propel your business.",
                     "linkURL": "https://www.automationanywhere.com/",
                     "contentItemPosition": [
-                        10,
-                        68
+                        16,
+                        81
                     ],
                     "contentItemSize": [
-                        155,
-                        85
+                        140,
+                        58
                     ]
                 },
                 {
@@ -25,12 +25,12 @@
                     "description": "We make robots so people don't have to be robots.",
                     "linkURL": "https://www.uipath.com/",
                     "contentItemPosition": [
-                        -20,
-                        157
+                        -25,
+                        147
                     ],
                     "contentItemSize": [
-                        137,
-                        77
+                        125,
+                        54
                     ]
                 }
             ]
@@ -44,16 +44,29 @@
             ],
             "contentItems": [
                 {
+                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "description": "Attend the presentations September 22, 2020 | 1:00 pm to 4:00 pm (ET)",
+                    "linkURL": "http://collaboratevideo.net/csps-efpc/2020-09-22/",
+                    "contentItemPosition": [
+                        0,
+                        0
+                    ],
+                    "contentItemSize": [
+                        192,
+                        65
+                    ]
+                },
+                {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/Blueprism.png",
                     "description": "A Digital Workforce for Every Enterprise.",
                     "linkURL": "https://www.blueprism.com/",
                     "contentItemPosition": [
-                        23,
-                        251
+                        19,
+                        245
                     ],
                     "contentItemSize": [
-                        145,
-                        55
+                        135,
+                        35
                     ]
                 }
             ]
@@ -67,11 +80,11 @@
                     "linkURL": "https://www2.deloitte.com/ca/en.html?icid=site_selector_ca",
                     "contentItemPosition": [
                         20,
-                        160
+                        172
                     ],
                     "contentItemSize": [
-                        140,
-                        60
+                        135,
+                        45
                     ]
                 },
                 {
@@ -79,12 +92,12 @@
                     "description": "Delivering the future of work today.",
                     "linkURL": "http://greenlightconsulting.com/",
                     "contentItemPosition": [
-                        0,
-                        232
+                        -20,
+                        221
                     ],
                     "contentItemSize": [
-                        175,
-                        75
+                        135,
+                        55
                     ]
                 }
             ]
