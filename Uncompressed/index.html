@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169138456-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-169138456-1', { 'send_page_view': false });
+    </script>
+    <script src="TemplateData/ParamLoader.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>CSPS | 2004_vKiosk RPA Day (Sept 2020)</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+</head>
+<body>
+    <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas"></canvas>
+        <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
+        </div>
+    </div>
+    <div id="toolbar"><ul><li class="icon" tabindex="0"><a href="/#/mobile/"><img src="TemplateData/accessibility.png" /></a></li><li><a class="toolbar-lang" href=""></a></li></ul></div>
+    <script>
+        var buildUrl = "Build";
+        var ressourcesUrl = "KioskRessources";
+        var lang = GetUrlVars()['lang'];
+        var langLink = document.querySelector(".toolbar-lang");
+        var loaderUrl = buildUrl + "/Uncompressed.loader.js";
+        var config = {
+            dataUrl: buildUrl + "/Uncompressed.data",
+            frameworkUrl: buildUrl + "/Uncompressed.framework.js",
+            codeUrl: buildUrl + "/Uncompressed.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "CSPS",
+            productName: "2004_vKiosk RPA Day (Sept 2020)",
+            productVersion: "0.1",
+        };
+
+        var container = document.querySelector("#unity-container");
+        var canvas = document.querySelector("#unity-canvas");
+        var loadingBar = document.querySelector("#unity-loading-bar");
+        var progressBarFull = document.querySelector("#unity-progress-bar-full");
+
+        loadingBar.style.display = "block";
+
+        var script = document.createElement("script");
+        script.src = loaderUrl;
+
+        if (GetUrlVars()['kioskdata'] == undefined || GetUrlVars()['lang'] == undefined) {
+            container.style.display = 'none';
+            alert("'kioskdata' / 'lang' Are not set | Ne sont pas déclarées");
+        } else {
+            switch (lang) {
+                case "EnCA":
+                    langLink.innerHTML = "FR";
+                    langLink.href = "?lang=FrCA&kioskdata=" + GetUrlVars()['kioskdata'];
+                    break;
+                case "FrCA":
+                    langLink.innerHTML = "EN";
+                    langLink.href = "?lang=EnCA&kioskdata=" + GetUrlVars()['kioskdata'];
+                    break;
+                default:
+                    lang = undefined;
+            }
+            var kioskDataURL = ressourcesUrl + "/" + GetUrlVars()['kioskdata'] + "_" + GetUrlVars()['lang'] + ".json";
+
+            script.onload = () => {
+                createUnityInstance(canvas, config, (progress) => {
+                    progressBarFull.style.width = 100 * progress + "%";
+                    canvas.height = window.innerHeight;
+                    canvas.width = window.innerWidth;
+                }).then((unityInstance) => {
+                    loadingBar.style.display = "none";
+                    unityInstance.SendMessage('Application', 'LoadKiosk', kioskDataURL);
+                    gtag('event', 'page_view', {
+                        'event_callback': function () {
+                            console.log('Google analytics is ready');
+                            unityInstance.SendMessage('Application', 'EnableGA', 'true');
+                        }
+                    });
+                }).catch((message) => {
+                    alert(message);
+                });
+            };
+            document.body.appendChild(script);
+        }
+    </script>
+</body>
+</html>
