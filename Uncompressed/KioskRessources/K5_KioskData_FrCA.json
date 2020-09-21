@@ -44,19 +44,6 @@
             ],
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
-                    "description": "Assistez aux présentations le 22 septembre 2020 | de 13 h à 16 h (HE)",
-                    "linkURL": "http://collaboratevideo.net/csps-efpc/2020-09-22/",
-                    "contentItemPosition": [
-                        0,
-                        0
-                    ],
-                    "contentItemSize": [
-                        192,
-                        65
-                    ]
-                },
-                {
                     "descriptionIconImageURL": "KioskRessources/Card Icons/Blueprism.png",
                     "description": "Une main d'oeuvre numérique pour chaque entreprise.",
                     "linkURL": "https://www.blueprism.com/fr/?selected-locale=%E2%9C%93",
