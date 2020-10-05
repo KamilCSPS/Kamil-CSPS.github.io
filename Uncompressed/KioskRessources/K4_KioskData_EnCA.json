@@ -1,0 +1,106 @@
+{
+    "kioskColor": "#A1A199",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K4/Kiosk_04_LeftPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/WhatWeOffer.png",
+                    "description": "What we offer",
+                    "linkURL": "Docs/PSI/VK_2_En.pdf",
+                    "contentItemPosition": [
+                        -45,
+                        199
+                    ],
+                    "contentItemSize": [
+                        88,
+                        88
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/HowDoWeWork.png",
+                    "description": "How do we work?",
+                    "linkURL": "Docs/PSI/VK_3_En.pdf",
+                    "contentItemPosition": [
+                        50,
+                        163
+                    ],
+                    "contentItemSize": [
+                        88,
+                        88
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K4/Kiosk_04_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K4/Kiosk_04_CentralPanel_Title_EnCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/WhoWeAre.png",
+                    "description": "Who are we?",
+                    "linkURL": "Docs/PSI/VK_1_En.pdf",
+                    "contentItemPosition": [
+                        0,
+                        178
+                    ],
+                    "contentItemSize": [
+                        88,
+                        88
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Phone.png",
+                    "description": "Contact-Us.",
+                    "linkURL": "Docs/PSI/VK_6_En.pdf",
+                    "contentItemPosition": [
+                        0,
+                        244
+                    ],
+                    "contentItemSize": [
+                        88,
+                        44
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K4/Kiosk_04_RightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Explore.png",
+                    "description": "Explore our Projects !",
+                    "linkURL": "Docs/PSI/VK_4_En.pdf",
+                    "contentItemPosition": [
+                        -47.5,
+                        174
+                    ],
+                    "contentItemSize": [
+                        88,
+                        88
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/LessonsLearned.png",
+                    "description": "Demonstration Projects Lessons Learned",
+                    "linkURL": "Docs/PSI/VK_5_En.pdf",
+                    "contentItemPosition": [
+                        42.5,
+                        222.5
+                    ],
+                    "contentItemSize": [
+                        88,
+                        88
+                    ]
+                }
+            ]
+        }
+    ]
+}
