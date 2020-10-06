@@ -1,7 +1,7 @@
 {
     "kioskColor": "#727271",
-    "totalPanels": 12,
-    "firstPanelIndex": 2,
+    "totalPanels": 10,
+    "firstPanelIndex": 1,
     "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
     "panels": [
         {

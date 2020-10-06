@@ -1,0 +1,79 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K7/Kiosk_07_LeftPanel_EnCA.jpg",
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K7/Kiosk_07_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K7/Kiosk_07_CentralPanel_Title_EnCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Learning.png",
+                    "description": "Consult our course calendar.",
+                    "linkURL": "https://cyber.gc.ca/sites/default/files/2020-03/CourseCalendar-e.pdf",
+                    "contentItemPosition": [
+                        0,
+                        212
+                    ],
+                    "contentItemSize": [
+                        85,
+                        108
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K7/Kiosk_07_RightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/ContactUs.png",
+                    "description": "Email-us",
+                    "linkURL": "mailto:education@cyber.gc.ca",
+                    "contentItemPosition": [
+                        -66,
+                        162
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Phone2.png",
+                    "description": "Call-us: 1-833-645-3276",
+                    "linkURL": "tel:1-833-645-3276",
+                    "contentItemPosition": [
+                        -27,
+                        162
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Web.png",
+                    "description": "Visit our web site",
+                    "linkURL": "https://cyber.gc.ca/en/learning-hub",
+                    "contentItemPosition": [
+                        12,
+                        162
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                }
+            ]
+        }
+    ]
+}
