@@ -1,0 +1,254 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 2,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K8/Kiosk_08_LeftPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "GC Enterprise Security Architecture (GC ESA)",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/Government_of_Canada_Enterprise_Security_Architecture_(ESA)_Program",
+                    "contentItemPosition": [
+                        0,
+                        67.5
+                    ],
+                    "contentItemSize": [
+                        167,
+                        58
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCconnex.png",
+                    "description": "Secure GC Digital Forum",
+                    "linkURL": "https://gcconnex.gc.ca/groups/profile/2785549/securegcdigital-forum?language=en",
+                    "contentItemPosition": [
+                        0,
+                        122
+                    ],
+                    "contentItemSize": [
+                        167,
+                        58
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCcollab.png",
+                    "description": "GC HTTPS Everywhere",
+                    "linkURL": "https://gccollab.ca/groups/profile/1358152/engc-https-everywherefrgc-https-partout",
+                    "contentItemPosition": [
+                        0,
+                        177
+                    ],
+                    "contentItemSize": [
+                        167,
+                        58
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCcollab.png",
+                    "description": "Pan Canadian Trust Framework",
+                    "linkURL": "https://gccollab.ca/groups/profile/6910/enpan-canadian-trust-frameworkfr",
+                    "contentItemPosition": [
+                        0,
+                        233
+                    ],
+                    "contentItemSize": [
+                        167,
+                        58
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K8/Kiosk_08_CentralLeftPanel_EnCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K8/Kiosk_08_CentralLeftPanel_Title_EnCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/About.png",
+                    "description": "About TBS Cyber Secyrity",
+                    "linkURL": "Docs/OCIO/CyberSecurity101En.pdf",
+                    "contentItemPosition": [
+                        0,
+                        118
+                    ],
+                    "contentItemSize": [
+                        169,
+                        99
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Twitter.png",
+                    "description": "GC Secure Digital on Twitter",
+                    "linkURL": "https://twitter.com/hashtag/SecureGCDigital?src=hashtag_click",
+                    "contentItemPosition": [
+                        -48.5,
+                        222
+                    ],
+                    "contentItemSize": [
+                        35,
+                        35
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/ContactUs.png",
+                    "description": "Contact-us",
+                    "linkURL": "mailto:ZZTBSCYBERS@tbs-sct.gc.ca",
+                    "contentItemPosition": [
+                        0,
+                        222
+                    ],
+                    "contentItemSize": [
+                        35,
+                        35
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Twitter.png",
+                    "description": "GC Digital ID on Twitter",
+                    "linkURL": "https://twitter.com/hashtag/GCdigitalID?src=hashtag_click",
+                    "contentItemPosition": [
+                        47.5,
+                        222
+                    ],
+                    "contentItemSize": [
+                        35,
+                        35
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K8/Kiosk_08_CentralRightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Youtube.png",
+                    "description": "An Introduction to the Policy on Government Security",
+                    "linkURL": "https://www.youtube.com/watch?time_continue=140&v=IKEah0dmsAA&feature=emb_logo",
+                    "contentItemPosition": [
+                        0,
+                        76
+                    ],
+                    "contentItemSize": [
+                        128,
+                        76
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Secure.png",
+                    "description": "Protection of government programs, services, people, information and assets",
+                    "linkURL": "https://www.tbs-sct.gc.ca/pol/topic-sujet-eng.aspx?ta=33",
+                    "contentItemPosition": [
+                        -40,
+                        160
+                    ],
+                    "contentItemSize": [
+                        50,
+                        50
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/DigitalServices.png",
+                    "description": "Managing service delivery in the digital era.",
+                    "linkURL": "https://www.tbs-sct.gc.ca/pol/topic-sujet-eng.aspx?ta=27",
+                    "contentItemPosition": [
+                        43,
+                        160
+                    ],
+                    "contentItemSize": [
+                        50,
+                        50
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Secure.png",
+                    "description": "Guidance for the security of online government services",
+                    "linkURL": "https://www.canada.ca/en/government/system/digital-government/online-security-privacy.html",
+                    "contentItemPosition": [
+                        -40,
+                        225
+                    ],
+                    "contentItemSize": [
+                        50,
+                        50
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Secure.png",
+                    "description": "Security tasks for designing and implementing digital solutions.",
+                    "linkURL": "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/cloud-services/security-playbook-information-system-solutions-cloud.html",
+                    "contentItemPosition": [
+                        43,
+                        224
+                    ],
+                    "contentItemSize": [
+                        50,
+                        50
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K8/Kiosk_08_RightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Youtube.png",
+                    "description": "Canada's Trusted Digital Identity vision",
+                    "linkURL": "https://www.youtube.com/watch?v=0DMu8dLyTdQ",
+                    "contentItemPosition": [
+                        0,
+                        76
+                    ],
+                    "contentItemSize": [
+                        128,
+                        76
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Cloud.png",
+                    "description": "Know more about our cloud services.",
+                    "linkURL": "https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/cloud-services.html",
+                    "contentItemPosition": [
+                        0,
+                        158.5
+                    ],
+                    "contentItemSize": [
+                        62,
+                        46
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "The GC Internal Centralized Authentication Service (ICAS)",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/GCpass_-_the_GC_Internal_Centralized_Authentication_Service_(ICAS)",
+                    "contentItemPosition": [
+                        -48,
+                        213.5
+                    ],
+                    "contentItemSize": [
+                        62,
+                        46
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GitHub.png",
+                    "description": "Assurance Level Requirement",
+                    "linkURL": "https://canada-ca.github.io/digital-playbook-guide-numerique/views-vues/assurance-level-requirement/en/assurance-level-requirement.html",
+                    "contentItemPosition": [
+                        47.5,
+                        213.5
+                    ],
+                    "contentItemSize": [
+                        62,
+                        46
+                    ]
+                }
+            ]
+        }
+    ]
+}
