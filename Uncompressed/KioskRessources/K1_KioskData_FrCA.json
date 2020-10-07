@@ -1,0 +1,207 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_FrCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_LeftPanel_FrCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K1/Kiosk_01_LeftPanel_Title_FrCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
+                    "description": "La nuance GC rencontre le savoir faire numérique. Visitez Trajetsenbus.ca",
+                    "linkURL": "https://busrides-trajetsenbus.ca/fr/",
+                    "contentItemPosition": [
+                        -33,
+                        111
+                    ],
+                    "contentItemSize": [
+                        104,
+                        62
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
+                    "description": "Découvrez Trajets en bus et comment vous pourriez être un collaborateur invité.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/fr/about/",
+                    "contentItemPosition": [
+                        52.5,
+                        133
+                    ],
+                    "contentItemSize": [
+                        64,
+                        106
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
+                    "description": "Vous voulez en savoir plus sur la cybersécurité? Jetez un coup d’oeil sur notre épisode à ce sujet.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/fr/ep-18-fr/",
+                    "contentItemPosition": [
+                        -48.5,
+                        207
+                    ],
+                    "contentItemSize": [
+                        35,
+                        50
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
+                    "description": "Vous pensez avoir compris ce qu'est le télétravail ? Consultez le Guide du télétravail pour des conseils et d'astuces.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/fr/going-remote-guide/",
+                    "contentItemPosition": [
+                        -17,
+                        207
+                    ],
+                    "contentItemSize": [
+                        35,
+                        50
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_CentralPanel_FrCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K1/Kiosk_01_CentralPanel_Title_FrCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/ContactUs.png",
+                    "description": "Contactez-nous.",
+                    "linkURL": "mailto:csps.digitalacademy-academiedunumerique.efpc@canada.ca",
+                    "contentItemPosition": [
+                        0,
+                        0
+                    ],
+                    "contentItemSize": [
+                        192,
+                        65
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Youtube.png",
+                    "description": "Qu’est-ce qu’être numérique. Visionnez la vidéo.",
+                    "linkURL": "https://www.youtube.com/watch?v=2XH96AQ0NGE",
+                    "contentItemPosition": [
+                        0,
+                        86.5
+                    ],
+                    "contentItemSize": [
+                        148,
+                        87.5
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/CSPSlogo.png",
+                    "description": "Apprenez davantage sur les cours et les offres d'apprentissage de l'Académie du numérique. Visitez le site web.",
+                    "linkURL": "https://www.csps-efpc.gc.ca/digital-academy/index-fra.aspx",
+                    "contentItemPosition": [
+                        32.5,
+                        162.5
+                    ],
+                    "contentItemSize": [
+                        103,
+                        62
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
+                    "description": "La série innovision de FWD50 est une émission-débat ludique sur la façon de gouverner différemment.",
+                    "linkURL": "https://busrides-trajetsenbus.ca/tag/fr-serie-innovision-de-fwd50/",
+                    "contentItemPosition": [
+                        32,
+                        226
+                    ],
+                    "contentItemSize": [
+                        103,
+                        62
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Twitter.png",
+                    "description": "Suivez-nous sur Twitter.",
+                    "linkURL": "https://twitter.com/AcademieNumCAN",
+                    "contentItemPosition": [
+                        -52.5,
+                        184.5
+                    ],
+                    "contentItemSize": [
+                        63,
+                        105.5
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/MailchimpLogo.png",
+                    "description": "Inscrivez-vous à la liste de diffusion de l'Académie du numérique pour obtenir les dernières informations sur nos offres et les événements à venir.",
+                    "linkURL": "https://da-an.us3.list-manage.com/subscribe?u=9e5810d743bf898c302d3c312&id=bbc8bab3e7",
+                    "contentItemPosition": [
+                        -52.5,
+                        252
+                    ],
+                    "contentItemSize": [
+                        63,
+                        28
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_RightPanel_FrCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K1/Kiosk_01_RightPanel_Title_FrCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                -0.384
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/DiscoverSeries.png",
+                    "description": "Apprenez davantage sur la séries découverte.Visitez le site web.",
+                    "linkURL": "https://www.csps-efpc.gc.ca/discover-series/index-fra.aspx",
+                    "contentItemPosition": [
+                        47.5,
+                        108.1
+                    ],
+                    "contentItemSize": [
+                        93.5,
+                        56.5
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/DiscoverSeries.png",
+                    "description": "Vous voulez en savoir plus sur la cybersécurité? Consultez la liste de cours Découvrez la cybersécurité.",
+                    "linkURL": "https://www.csps-efpc.gc.ca/discover-series/cyber-fra.aspx",
+                    "contentItemPosition": [
+                        -47.8,
+                        165.8
+                    ],
+                    "contentItemSize": [
+                        93.5,
+                        56.5
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/DiscoverSeries.png",
+                    "description": "Obtenez une vue d'ensemble de la Série découverte et sur quoi nous travaillons.",
+                    "linkURL": "https://www.figma.com/file/tmk7lFRpvUQ6ikuP1WPna5/Digital-Academy-Placement---FR--NO-MOU--September-30-2020?node-id=0%3A1",
+                    "contentItemPosition": [
+                        47.2,
+                        223.8
+                    ],
+                    "contentItemSize": [
+                        93.5,
+                        56.5
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_FrCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K3/Kiosk_03_LeftPanel_FrCA.jpg",
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K3/Kiosk_03_CentralPanel_FrCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/CP.png",
+                    "description": "Avancement des politiques publiques en matière de cybersécurité et de confidentialité numérique.",
+                    "linkURL": "https://www.cybersecurepolicy.ca/",
+                    "contentItemPosition": [
+                        0,
+                        155
+                    ],
+                    "contentItemSize": [
+                        210,
+                        100
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/ContactUs.png",
+                    "description": "Contactez-nous",
+                    "linkURL": "mailto:Cybersecure.policy@ryerson.ca",
+                    "contentItemPosition": [
+                        -59.5,
+                        254.5
+                    ],
+                    "contentItemSize": [
+                        20,
+                        20
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Twitter.png",
+                    "description": "Suivez-nous sur Twitter",
+                    "linkURL": "https://twitter.com/cyberpolicyx",
+                    "contentItemPosition": [
+                        -78,
+                        254.5
+                    ],
+                    "contentItemSize": [
+                        20,
+                        20
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K3/Kiosk_03_RightPanel_FrCA.jpg",
+            "contentItems": []
+        }
+    ]
+}
