@@ -59,7 +59,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/Presentation.png",
                     "description": "Shared Services Canada 101",
-                    "linkURL": "Docs/SSC/SSC_101_Bilingual_Presentation",
+                    "linkURL": "Docs/SSC/SSC_101_Bilingual_Presentation.pdf",
                     "contentItemPosition": [
                         -35,
                         130
@@ -129,7 +129,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/About.png",
                     "description": "Information on SSC's role in Cybersecurity and collaboration with our partners.",
-                    "linkURL": "Docs/SSC/Role&Collaboration_En.pdf",
+                    "linkURL": "Docs/SSC/RoleCollaboration_En.pdf",
                     "contentItemPosition": [
                         48,
                         195
