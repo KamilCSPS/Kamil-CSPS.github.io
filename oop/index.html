@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169138456-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-169138456-3', { 'send_page_view': false });
+    </script>
+    <script src="TemplateData/ParamLoader.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>CSPS | 2005_vExpo Cyber Security (Oct 2020)</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+</head>
+<body>
+    <div id="unity-container" class="unity-desktop">
+        <canvas id="unity-canvas"></canvas>
+        <div id="unity-loading-bar">
+            <div id="unity-logo"></div>
+            <div id="unity-progress-bar-empty">
+                <div id="unity-progress-bar-full"></div>
+            </div>
+        </div>
+    </div>
+    <div id="toolbar"><ul><li class="icon" tabindex="0"><a href="/#/mobile/"><img src="TemplateData/accessibility.png" /></a></li><li><a class="toolbar-lang" href=""></a></li></ul></div>
+    <script>
+        var buildUrl = "Build";
+        var ressourcesUrl = "KioskRessources";
+        var lang = GetUrlVars()['lang'];
+        var langLink = document.querySelector(".toolbar-lang");
+        var loaderUrl = buildUrl + "/oop.loader.js";
+        var config = {
+            dataUrl: buildUrl + "/oop.data",
+            frameworkUrl: buildUrl + "/oop.framework.js",
+            codeUrl: buildUrl + "/oop.wasm",
+            streamingAssetsUrl: "StreamingAssets",
+            companyName: "CSPS",
+            productName: "2005_vExpo Cyber Security (Oct 2020)",
+            productVersion: "0.1",
+        };
+
+        var container = document.querySelector("#unity-container");
+        var canvas = document.querySelector("#unity-canvas");
+        var loadingBar = document.querySelector("#unity-loading-bar");
+        var progressBarFull = document.querySelector("#unity-progress-bar-full");
+
+        loadingBar.style.display = "block";
+
+        var script = document.createElement("script");
+        script.src = loaderUrl;
+
+        script.onload = () => {
+            createUnityInstance(canvas, config, (progress) => {
+                progressBarFull.style.width = 100 * progress + "%";
+                canvas.height = window.innerHeight;
+                canvas.width = window.innerWidth;
+            }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+            }).catch((message) => {
+                alert(message);
+            });
+        };
+        document.body.appendChild(script);
+    </script>
+</body>
+</html>
