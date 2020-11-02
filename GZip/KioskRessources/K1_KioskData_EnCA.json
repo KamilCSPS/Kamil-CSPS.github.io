@@ -6,62 +6,31 @@
     "panels": [
         {
             "backgroundImageURL": "KioskRessources/K1/Kiosk_01_LeftPanel_EnCA.jpg",
-            "titlePanelImageURL": "KioskRessources/K1/Kiosk_01_LeftPanel_Title_EnCA.jpg",
-            "titlePanelCoordinates": [
-                0,
-                -0.384
-            ],
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
-                    "description": "GC nuance meets digital know-how. Visit Busrides.ca.",
-                    "linkURL": "https://busrides-trajetsenbus.ca/",
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "A forum to discuss project management within government.",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/ASAS_-_Project_Management_-_Community_Engagement",
                     "contentItemPosition": [
-                        -33,
-                        111
+                        5,
+                        127
                     ],
                     "contentItemSize": [
-                        104,
-                        62
+                        90,
+                        90
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
-                    "description": "Learn about Busrides and how you could be a guest writer.",
-                    "linkURL": "https://busrides-trajetsenbus.ca/en/about/",
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "Integrating investment planning and project management.",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/Investment_Planning_and_Project_Management_Community_of_Practice",
                     "contentItemPosition": [
-                        52.5,
-                        133
+                        -38,
+                        208
                     ],
                     "contentItemSize": [
-                        64,
-                        106
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
-                    "description": "Want to learn more about cybersecurity? Check out our episode on this topic.",
-                    "linkURL": "https://busrides-trajetsenbus.ca/en/ep-18-en/",
-                    "contentItemPosition": [
-                        -48.5,
-                        207
-                    ],
-                    "contentItemSize": [
-                        35,
-                        50
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
-                    "description": "Think you have telework figured out? View the Going Remote Guide for tips and tricks.",
-                    "linkURL": "https://busrides-trajetsenbus.ca/en/going-remote-guide/",
-                    "contentItemPosition": [
-                        -17,
-                        207
-                    ],
-                    "contentItemSize": [
-                        35,
-                        50
+                        90,
+                        90
                     ]
                 }
             ]
@@ -73,132 +42,35 @@
                 0,
                 0
             ],
-            "contentItems": [
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/ContactUs.png",
-                    "description": "Contact us.",
-                    "linkURL": "mailto:csps.digitalacademy-academiedunumerique.efpc@canada.ca",
-                    "contentItemPosition": [
-                        0,
-                        0
-                    ],
-                    "contentItemSize": [
-                        192,
-                        65
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/Youtube.png",
-                    "description": "What does it mean to be digital. Watch the video.",
-                    "linkURL": "https://www.youtube.com/watch?v=TZ-TA44WWHc",
-                    "contentItemPosition": [
-                        0,
-                        86.5
-                    ],
-                    "contentItemSize": [
-                        148,
-                        87.5
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/CSPSlogo.png",
-                    "description": "Learn more about the Digital Academy courses and learning offerings. Visit the website.",
-                    "linkURL": "https://www.csps-efpc.gc.ca/digital-academy/index-eng.aspx",
-                    "contentItemPosition": [
-                        32.5,
-                        162.5
-                    ],
-                    "contentItemSize": [
-                        103,
-                        62
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/BusridesLogo.png",
-                    "description": "FWDThinking is a learning series in a talk show format about how to do government differently.",
-                    "linkURL": "https://busrides-trajetsenbus.ca/tag/en-fwdthinking-series/",
-                    "contentItemPosition": [
-                        32,
-                        226
-                    ],
-                    "contentItemSize": [
-                        103,
-                        62
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/Twitter.png",
-                    "description": "Follow us on Twitter.",
-                    "linkURL": "https://twitter.com/DigiAcademyCAN",
-                    "contentItemPosition": [
-                        -52.5,
-                        184.5
-                    ],
-                    "contentItemSize": [
-                        63,
-                        105.5
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/MailchimpLogo.png",
-                    "description": "Join the Digital Academy mailing list to get the latest info on our offerings and upcoming events.",
-                    "linkURL": "https://da-an.us3.list-manage.com/subscribe?u=9e5810d743bf898c302d3c312&id=bbc8bab3e7",
-                    "contentItemPosition": [
-                        -52.5,
-                        252
-                    ],
-                    "contentItemSize": [
-                        63,
-                        28
-                    ]
-                }
-            ]
+            "contentItems": []
         },
         {
             "backgroundImageURL": "KioskRessources/K1/Kiosk_01_RightPanel_EnCA.jpg",
-            "titlePanelImageURL": "KioskRessources/K1/Kiosk_01_RightPanel_Title_EnCA.jpg",
-            "titlePanelCoordinates": [
-                0,
-                -0.384
-            ],
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Icons/DiscoverSeries.png",
-                    "description": "Learn about the Discover Series. Visit the website.",
-                    "linkURL": "https://www.csps-efpc.gc.ca/discover-series/index-eng.aspx",
+                    "descriptionIconImageURL": "KioskRessources/Icons/MapleLeaf.png",
+                    "description": "TBS Mandatory Procedures for Concept Case for Digital Projects",
+                    "linkURL": "https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32593#appC",
                     "contentItemPosition": [
-                        47.5,
-                        108.1
+                        -10,
+                        122
                     ],
                     "contentItemSize": [
-                        93.5,
-                        56.5
+                        90,
+                        90
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Icons/DiscoverSeries.png",
-                    "description": "Want to learn about cybersercurity? See the Discover Cybersecurity courses list.",
-                    "linkURL": "https://www.csps-efpc.gc.ca/discover-series/cyber-eng.aspx",
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "Policies, Directives, Guidance and Tools for Project Management",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/ASAS_-_Project_Management_-_Policy_Instruments",
                     "contentItemPosition": [
-                        -47.8,
-                        165.8
+                        37,
+                        202
                     ],
                     "contentItemSize": [
-                        93.5,
-                        56.5
-                    ]
-                },
-                {
-                    "descriptionIconImageURL": "KioskRessources/Icons/DiscoverSeries.png",
-                    "description": "Get a bird's eye view of the Discover series and what we're working on.",
-                    "linkURL": "https://www.figma.com/file/XrHMkuJGPQOr8TdyQdx2tE/Digital-Academy-Placement---EN---NO-MOU-September-30-2020?node-id=0%3A1",
-                    "contentItemPosition": [
-                        47.2,
-                        223.8
-                    ],
-                    "contentItemSize": [
-                        93.5,
-                        56.5
+                        90,
+                        90
                     ]
                 }
             ]
