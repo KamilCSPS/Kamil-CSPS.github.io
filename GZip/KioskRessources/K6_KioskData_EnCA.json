@@ -1,0 +1,106 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K6/Kiosk_06_LeftPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/AnnualDataConference.png",
+                    "description": "Annual Government of Canada Data Conference",
+                    "linkURL": "Docs/DC/DataConferenceEn.pdf",
+                    "contentItemPosition": [
+                        0,
+                        137.5
+                    ],
+                    "contentItemSize": [
+                        145,
+                        85
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/ContactUs.png",
+                    "description": "Contact-us",
+                    "linkURL": "mailto:csps.dcpo-bpcd.efpc@canada.ca",
+                    "contentItemPosition": [
+                        0,
+                        215
+                    ],
+                    "contentItemSize": [
+                        148.5,
+                        45
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K6/Kiosk_06_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K6/Kiosk_06_CentralPanel_Title_EnCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/DataCommunity.png",
+                    "description": "Strengthening the Data Community",
+                    "linkURL": "Docs/DC/DCSlidesEn.pdf",
+                    "contentItemPosition": [
+                        0,
+                        128
+                    ],
+                    "contentItemSize": [
+                        148.5,
+                        87
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/DataCommunity.png",
+                    "description": "Data Community Placemat",
+                    "linkURL": "Docs/DC/DataCommunityPlacematEn.pdf",
+                    "contentItemPosition": [
+                        0,
+                        217
+                    ],
+                    "contentItemSize": [
+                        148.5,
+                        87
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K6/Kiosk_06_RightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Youtube.png",
+                    "description": "Day 1: Data Conference 2020",
+                    "linkURL": "https://www.youtube.com/watch?v=9JF8QC71E38",
+                    "contentItemPosition": [
+                        3.5,
+                        100
+                    ],
+                    "contentItemSize": [
+                        145,
+                        85
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Youtube.png",
+                    "description": "Day 2: Data Conference 2020",
+                    "linkURL": "https://www.youtube.com/watch?v=Uf5E2ssxK0U",
+                    "contentItemPosition": [
+                        3.5,
+                        200
+                    ],
+                    "contentItemSize": [
+                        145,
+                        85
+                    ]
+                }
+            ]
+        }
+    ]
+}

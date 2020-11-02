@@ -1,0 +1,145 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K9/Kiosk_09_LeftPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Web.png",
+                    "description": "Shared Services Canada (SSC) delivers digital services to Government of Canada organizations.",
+                    "linkURL": "https://www.canada.ca/en/shared-services.html",
+                    "contentItemPosition": [
+                        -37,
+                        161.5
+                    ],
+                    "contentItemSize": [
+                        95,
+                        192
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Secure.png",
+                    "description": "Working in cybersecurity at SSC.",
+                    "linkURL": "Docs/SSC/Cybersecurity_En.pdf",
+                    "contentItemPosition": [
+                        48,
+                        111
+                    ],
+                    "contentItemSize": [
+                        72,
+                        90
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K9/Kiosk_09_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K9/Kiosk_09_CentralPanel_Title_EnCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Web.png",
+                    "description": "Improve the user experience by consolidating, modernizing and standardizing.",
+                    "linkURL": "https://www.canada.ca/en/shared-services/ssc-3-enterprise-approach.html",
+                    "contentItemPosition": [
+                        50,
+                        90.5
+                    ],
+                    "contentItemSize": [
+                        65,
+                        83
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Presentation.png",
+                    "description": "Shared Services Canada 101",
+                    "linkURL": "Docs/SSC/SSC_101_Bilingual_Presentation.pdf",
+                    "contentItemPosition": [
+                        -35,
+                        130
+                    ],
+                    "contentItemSize": [
+                        95,
+                        56
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Twitter.png",
+                    "description": "Follow-us on Twitter.",
+                    "linkURL": "https://twitter.com/SSC_CA",
+                    "contentItemPosition": [
+                        -42,
+                        216
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/LinkedIn.png",
+                    "description": "Follow-us on LinkedIn.",
+                    "linkURL": "https://www.linkedin.com/company/shared-services-canada/?originalSubdomain=ca",
+                    "contentItemPosition": [
+                        0,
+                        216
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Instagram.png",
+                    "description": "Follow-us on Instagram.",
+                    "linkURL": "https://www.instagram.com/ssc_spc/?hl=en",
+                    "contentItemPosition": [
+                        42,
+                        216
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K9/Kiosk_09_RightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Youtube.png",
+                    "description": "Corporate Video: We are Shared Services Canada",
+                    "linkURL": "https://www.youtube.com/watch?v=J1-Skz8m12k",
+                    "contentItemPosition": [
+                        0,
+                        66
+                    ],
+                    "contentItemSize": [
+                        167,
+                        98
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/About.png",
+                    "description": "Information on SSC's role in Cybersecurity and collaboration with our partners.",
+                    "linkURL": "Docs/SSC/RoleCollaboration_En.pdf",
+                    "contentItemPosition": [
+                        48,
+                        195
+                    ],
+                    "contentItemSize": [
+                        70,
+                        90
+                    ]
+                }
+            ]
+        }
+    ]
+}
