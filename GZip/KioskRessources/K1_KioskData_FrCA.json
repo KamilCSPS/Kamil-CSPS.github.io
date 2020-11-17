@@ -1,0 +1,79 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_FrCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_LeftPanel_FrCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "Une tribune pour discuter de gestion de projet au gouvernement.",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/SSAA_-_Gestion_des_Projets_-_Participation_des_Collectivit%C3%A9s",
+                    "contentItemPosition": [
+                        5,
+                        127
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "Intégrer la planification des investissements et la gestion de projets.",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/Communaut%C3%A9_de_pratique_-_Planification_des_investissements_et_la_gestion_des_projets",
+                    "contentItemPosition": [
+                        -38,
+                        208
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_CentralPanel_FrCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K1/Kiosk_01_CentralPanel_Title_FrCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_RightPanel_FrCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/MapleLeaf.png",
+                    "description": "Procédures obligatoires du SCT pour les cas conceptuels relatifs aux projets numériques",
+                    "linkURL": "https://www.tbs-sct.gc.ca/pol/doc-fra.aspx?id=32593",
+                    "contentItemPosition": [
+                        -10,
+                        122
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "Politiques directives,  guides et outils pour la gestion de projets.",
+                    "linkURL": "https://https://www.gcpedia.gc.ca/wiki/SSAA_-_Gestion_des_Projets_-_Instruments_de_Politique",
+                    "contentItemPosition": [
+                        37,
+                        202
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                }
+            ]
+        }
+    ]
+}

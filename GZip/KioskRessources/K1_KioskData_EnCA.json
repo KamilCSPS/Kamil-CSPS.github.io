@@ -1,0 +1,79 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_EnCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_LeftPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "A forum to discuss project management within government.",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/ASAS_-_Project_Management_-_Community_Engagement",
+                    "contentItemPosition": [
+                        5,
+                        127
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "Integrating investment planning and project management.",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/Investment_Planning_and_Project_Management_Community_of_Practice",
+                    "contentItemPosition": [
+                        -38,
+                        208
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_CentralPanel_EnCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K1/Kiosk_01_CentralPanel_Title_EnCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K1/Kiosk_01_RightPanel_EnCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/MapleLeaf.png",
+                    "description": "TBS Mandatory Procedures for Concept Case for Digital Projects",
+                    "linkURL": "https://www.tbs-sct.gc.ca/pol/doc-eng.aspx?id=32593#appC",
+                    "contentItemPosition": [
+                        -10,
+                        122
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/GCpedia.png",
+                    "description": "Policies, Directives, Guidance and Tools for Project Management",
+                    "linkURL": "https://www.gcpedia.gc.ca/wiki/ASAS_-_Project_Management_-_Policy_Instruments",
+                    "contentItemPosition": [
+                        37,
+                        202
+                    ],
+                    "contentItemSize": [
+                        90,
+                        90
+                    ]
+                }
+            ]
+        }
+    ]
+}
