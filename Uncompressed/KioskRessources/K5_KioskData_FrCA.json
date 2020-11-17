@@ -1,0 +1,79 @@
+{
+    "kioskColor": "#727271",
+    "totalPanels": 12,
+    "firstPanelIndex": 1,
+    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_FrCA.jpg",
+    "panels": [
+        {
+            "backgroundImageURL": "KioskRessources/K5/Kiosk_05_LeftPanel_FrCA.jpg",
+            "contentItems": []
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K5/Kiosk_05_CentralPanel_FrCA.jpg",
+            "titlePanelImageURL": "KioskRessources/K5/Kiosk_05_CentralPanel_Title_FrCA.jpg",
+            "titlePanelCoordinates": [
+                0,
+                0
+            ],
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Learning.png",
+                    "description": "Consultez notre calendrier de cours.",
+                    "linkURL": "https://cyber.gc.ca/sites/default/files/2020-03/CourseCalendar-f.pdf",
+                    "contentItemPosition": [
+                        0,
+                        212
+                    ],
+                    "contentItemSize": [
+                        85,
+                        108
+                    ]
+                }
+            ]
+        },
+        {
+            "backgroundImageURL": "KioskRessources/K5/Kiosk_05_RightPanel_FrCA.jpg",
+            "contentItems": [
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/ContactUs.png",
+                    "description": "Écrivez-nous",
+                    "linkURL": "mailto:education@cyber.gc.ca",
+                    "contentItemPosition": [
+                        -66,
+                        162
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Phone2.png",
+                    "description": "Appelez-nous: 1-833-645-3276",
+                    "linkURL": "tel:1-833-645-3276",
+                    "contentItemPosition": [
+                        -27,
+                        162
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                },
+                {
+                    "descriptionIconImageURL": "KioskRessources/Icons/Web.png",
+                    "description": "Visitez notre site web.",
+                    "linkURL": "https://cyber.gc.ca/fr/carrefour-de-lapprentissage",
+                    "contentItemPosition": [
+                        12,
+                        162
+                    ],
+                    "contentItemSize": [
+                        40,
+                        40
+                    ]
+                }
+            ]
+        }
+    ]
+}
