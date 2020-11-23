@@ -10,7 +10,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/AnnualDataConference.png",
                     "description": "Conférence annuelle du Gouvernement du canada sur les données",
-                    "linkURL": "Docs/DC/DataConferenceFr.pdf",
+                    "linkURL": "/Docs/DC/DataConferenceFr.pdf",
                     "contentItemPosition": [
                         0,
                         137.5
@@ -46,7 +46,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/DataCommunity.png",
                     "description": "Renforcer la communauté des données.",
-                    "linkURL": "Docs/DC/DCSlidesFr.pdf",
+                    "linkURL": "/Docs/DC/DCSlidesFr.pdf",
                     "contentItemPosition": [
                         0,
                         128
@@ -59,7 +59,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/DataCommunity.png",
                     "description": "Napperon de la Communauté des données",
-                    "linkURL": "Docs/DC/DataCommunityPlacematBIL2020.pdf",
+                    "linkURL": "/Docs/DC/DataCommunityPlacematBIL2020.pdf",
                     "contentItemPosition": [
                         0,
                         217

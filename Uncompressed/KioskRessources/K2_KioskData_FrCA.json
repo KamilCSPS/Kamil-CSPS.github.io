@@ -36,7 +36,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/Learning.png",
                     "description": "À venir pour les cadres",
-                    "linkURL": "Docs/EL/ComingSoon_Fr.pdf",
+                    "linkURL": "/Docs/EL/ComingSoon_Fr.pdf",
                     "contentItemPosition": [
                         56,
                         115
@@ -49,7 +49,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/About.png",
                     "description": "À propos du programme",
-                    "linkURL": "Docs/EL/ELDP_Fr.pdf",
+                    "linkURL": "/Docs/EL/ELDP_Fr.pdf",
                     "contentItemPosition": [
                         -42,
                         224.5
@@ -62,7 +62,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/Roadmap.png",
                     "description": "Feuille de route d'apprentissage -  cohorte 7",
-                    "linkURL": "Docs/EL/Cohort_7_Learning_Roadmap_Fr.pdf",
+                    "linkURL": "/Docs/EL/Cohort_7_Learning_Roadmap_Fr.pdf",
                     "contentItemPosition": [
                         42,
                         233
@@ -98,7 +98,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/OverviewLearningEX.png",
                     "description": "Survol des occasions d’apprentissage pour les cadres",
-                    "linkURL": "Docs/EL/EL_Placemat_Fr.pdf",
+                    "linkURL": "/Docs/EL/EL_Placemat_Fr.pdf",
                     "contentItemPosition": [
                         0,
                         150

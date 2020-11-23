@@ -10,7 +10,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/AnnualDataConference.png",
                     "description": "Annual Government of Canada Data Conference",
-                    "linkURL": "Docs/DC/DataConferenceEn.pdf",
+                    "linkURL": "/Docs/DC/DataConferenceEn.pdf",
                     "contentItemPosition": [
                         0,
                         137.5
@@ -46,7 +46,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/DataCommunity.png",
                     "description": "Strengthening the Data Community",
-                    "linkURL": "Docs/DC/DCSlidesEn.pdf",
+                    "linkURL": "/Docs/DC/DCSlidesEn.pdf",
                     "contentItemPosition": [
                         0,
                         128
@@ -59,7 +59,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/DataCommunity.png",
                     "description": "Data Community Placemat",
-                    "linkURL": "Docs/DC/DataCommunityPlacematBIL2020.pdf",
+                    "linkURL": "/Docs/DC/DataCommunityPlacematBIL2020.pdf",
                     "contentItemPosition": [
                         0,
                         217

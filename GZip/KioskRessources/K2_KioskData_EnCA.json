@@ -36,7 +36,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/Learning.png",
                     "description": "Coming soon for executives",
-                    "linkURL": "Docs/EL/ComingSoon_En.pdf",
+                    "linkURL": "/Docs/EL/ComingSoon_En.pdf",
                     "contentItemPosition": [
                         56,
                         115
@@ -49,7 +49,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/About.png",
                     "description": "About the program",
-                    "linkURL": "Docs/EL/ELDP_En.pdf",
+                    "linkURL": "/Docs/EL/ELDP_En.pdf",
                     "contentItemPosition": [
                         -42,
                         224.5
@@ -62,7 +62,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/Roadmap.png",
                     "description": "Cohort 7 Learning Roadmap",
-                    "linkURL": "Docs/EL/Cohort_7_Learning_Roadmap_En.pdf",
+                    "linkURL": "/Docs/EL/Cohort_7_Learning_Roadmap_En.pdf",
                     "contentItemPosition": [
                         42,
                         233
@@ -98,7 +98,7 @@
                 {
                     "descriptionIconImageURL": "KioskRessources/Icons/OverviewLearningEX.png",
                     "description": "Overview of learning opportunities for Executives",
-                    "linkURL": "Docs/EL/EL_Placemat_En.pdf",
+                    "linkURL": "/Docs/EL/EL_Placemat_En.pdf",
                     "contentItemPosition": [
                         0,
                         150
