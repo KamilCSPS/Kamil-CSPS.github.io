@@ -2,15 +2,15 @@
     "kioskColor": "#A1A199",
     "totalPanels": 12,
     "firstPanelIndex": 1,
-    "seperatorBackgroundImageURL": "KioskRessources/KioskPanelSeparator_FrCA.jpg",
+    "seperatorBackgroundImageURL": "../../KioskRessources/KioskPanelSeparator_FrCA.jpg",
     "panels": [
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_LeftPanel_FrCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_LeftPanel_FrCA.jpg",
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/About.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/About.png",
                     "description": "À propos du programme",
-                    "linkURL": "Docs/EL/ELDP_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/ELDP_Fr.pdf",
                     "contentItemPosition": [
                         -42,
                         89.5
@@ -21,9 +21,9 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/OverviewLearningEX.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/OverviewLearningEX.png",
                     "description": "Survol des occasions d’apprentissage pour les cadres",
-                    "linkURL": "Docs/EL/EL_Placemat_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/EL_Placemat_Fr.pdf",
                     "contentItemPosition": [
                         42.5,
                         131
@@ -34,9 +34,9 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Roadmap.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Roadmap.png",
                     "description": "Feuille de route d'apprentissage -  cohorte 6",
-                    "linkURL": "Docs/EL/Cohort_6_Learning_Roadmap_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/Cohort_6_Learning_Roadmap_Fr.pdf",
                     "contentItemPosition": [
                         -42.5,
                         149.5
@@ -47,9 +47,9 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Learning.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Learning.png",
                     "description": "Apprentissage pour les SMA",
-                    "linkURL": "Docs/EL/ADM_Learning_Fr.pdf",
+                    "linkURL": "https://expo.da-an.ca/fr/Docs/EL/ADM_Learning_Fr.pdf",
                     "contentItemPosition": [
                         58,
                         206.5
@@ -60,7 +60,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/LearningPath.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/LearningPath.png",
                     "description": "Parcours d’apprentissage pour les cadres",
                     "linkURL": "https://www.csps-efpc.gc.ca/exdev-fra.aspx",
                     "contentItemPosition": [
@@ -75,15 +75,15 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_FrCA.jpg",
-            "titlePanelImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_Title_FrCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_FrCA.jpg",
+            "titlePanelImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_CentralPanel_Title_FrCA.jpg",
             "titlePanelCoordinates": [
                 0,
                 0
             ],
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Subscribe.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Subscribe.png",
                     "description": "Abonnez-vous à la mise à jour mensuelle de l’Apprentissage pour les cadres",
                     "linkURL": "mailto:csps.executivelearning-apprentissagepourlescadres.efpc@canada.ca?subject=Subscribe me to the Learning for Executives monthly update / Abonnez-moi à la mise à jour mensuelle d’Apprentissage pour les cadres",
                     "contentItemPosition": [
@@ -96,7 +96,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Podcast.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Podcast.png",
                     "description": "Soyez à l’écoute de la série de balados Comment survivre comme cadre",
                     "linkURL": "https://www.csps-efpc.gc.ca/podcasts/index-fra.aspx#surv",
                     "contentItemPosition": [
@@ -109,7 +109,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/Twitter.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/Twitter.png",
                     "description": "Suivez-nous sur Twitter",
                     "linkURL": "https://twitter.com/Ecole_GC",
                     "contentItemPosition": [
@@ -122,7 +122,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/ContactUs.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/ContactUs.png",
                     "description": "Envoyez-nous un courriel",
                     "linkURL": "mailto:csps.executivelearning-apprentissagepourlescadres.efpc@canada.ca",
                     "contentItemPosition": [
@@ -137,10 +137,10 @@
             ]
         },
         {
-            "backgroundImageURL": "KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_RightPanel_FrCA.jpg",
+            "backgroundImageURL": "../../KioskRessources/Kiosk 03 - Executive Learning/Kiosk_03_RightPanel_FrCA.jpg",
             "contentItems": [
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/CSPSlogo.png",
                     "description": "Le programme à l’intention des nouveaux directeurs devient virtuel!",
                     "linkURL": "https://www.csps-efpc.gc.ca/Catalogue/programs/new-directors-fra.aspx",
                     "contentItemPosition": [
@@ -153,7 +153,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/CSPSlogo.png",
                     "description": "Le programme des directeurs généraux devient virtuel!",
                     "linkURL": "https://www.csps-efpc.gc.ca/Catalogue/programs/directors-general-fra.aspx",
                     "contentItemPosition": [
@@ -166,7 +166,7 @@
                     ]
                 },
                 {
-                    "descriptionIconImageURL": "KioskRessources/Card Icons/CSPSlogo.png",
+                    "descriptionIconImageURL": "../../KioskRessources/Card Icons/CSPSlogo.png",
                     "description": "Balados mensuelles de 30 minutes mettant en vedette des leaders engageants.",
                     "linkURL": "https://www.csps-efpc.gc.ca/events/executalk/index-fra.aspx",
                     "contentItemPosition": [
